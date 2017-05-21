@@ -4,35 +4,66 @@
 }
 
 body {
-  background-color: blue;
   min-width: 768px;
   max-width: 900px;
+  height: 100%;
+  margin-top: 50px;
   display: inline-block;
+  background-image: url("https://media.giphy.com/media/SpHGOPeYkb5ao/giphy.gif?response_id=59217978243f5ad49db0422f");
 }
 
 header {
-  background-color: white;
+  min-width: 768px;
+  max-width: 900px;
+  height: 100%;
+  margin-bottom: 50px;
+  background-color: rgb(255, 153, 255);
+  opacity: 0.75;
+  border-radius: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  h1 {
+    font-family: 'Bungee Outline', cursive;
+    font-weight: bold;
+    font-size: 50px;
+  }
 }
 
 .form {
   form {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 50%;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
   }
   h1 {
-    background-color: grey;
+    font-family: 'Baloo Bhaina', cursive;
+    background-color: rgb(194, 194, 214);
     width: 50%;
     margin: 0 auto;
   }
   input {
     margin: 15px auto;
   }
+  input[type=button] {
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  h2 {
+    font-family: 'Baloo Bhaina', cursive;
+    color: rgb(255, 255, 255);
+    height: 30px;
+  }
 }
 
 footer {
-  background-color: white;
+  background-color: rgb(255, 153, 255);
+  opacity: 0.75;
+  font-family: 'Baloo Bhaina', cursive;
+  text-transform: uppercase;
+  font-size: 24px;
+  border-radius: 15px;
 }
