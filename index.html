@@ -14,22 +14,44 @@
   </header>
   <main>
     <div class="form">
-      <h1>Question</h1>
-      <form>
-        <p class="questionHere">Put question here</p>
+      <h1 id="heading">* Livin in a Coder's Paradise  *</h1>
 
-        <label for="answerOne"></label>
-        <input type="radio" id="answerOne" value="" name="answer"><br>
+      <div id="instructions">
+        <h3>How to play</h3>
+        <p>It's easy, select the answer you think is correct for each question. If it's no bueno you'll have to start again. Get 5 correct and you win!</p>
+        <button class="play">Play</button>
+      </div>
 
-        <label for="answerTwo"></label>
-        <input type="radio" id="answerTwo" value="" name="answer"><br>
+      <div id="game-board" class="hidden">
+        <form>
+          <p class="questionHere">Question</p>
+          <label for="answerOne"></label>
+          <input type="radio" id="answerOne" value="" name="answer"><br>
+          <label for="answerTwo"></label>
+          <input type="radio" id="answerTwo" value="" name="answer"><br>
+          <label for=""></label>
+          <input type="radio" id="answerThree" value="" name="answer"><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
 
-        <label for=""></label>
-        <input type="radio" id="answerThree" value="" name="answer"><br>
+      <div id="placeImage" class="hidden">
+        <div id="correctImage"></div>
+        <button id="next" class="hidden">Next</button>
+      </div>
 
-        <input type="submit" value="Submit">
-      </form>
-      <h2 class="score">Score</h2>
+
+      <div id="game-over" class="hidden">
+        <p>No bueno, try again!</p>
+        <img src="https://media.giphy.com/media/iLj7Uio0CHSO4/giphy.gif?response_id=5923004f01c21bea58253b7a" alt="Legolas: Game Over">
+        <button class="play">One more time?</button>
+      </div>
+
+      <div id="win" class="hidden">
+        <p>You are the master of all knowledge!</p>
+        <button class="play">Play again</button>
+      </div>
+
     </div>
   </main>
   <footer>
