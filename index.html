@@ -19,19 +19,19 @@
       <div id="instructions">
         <h3>How to play</h3>
         <p>It's easy, select the answer you think is correct for each question. If it's no bueno you'll have to start again. Get 5 correct and you win!</p>
-        <button class="play">Play</button>
+        <button id="imageChange" class="play">Play</button>
       </div>
 
       <div id="game-board" class="hidden">
         <form>
           <p class="questionHere">Question</p>
-          <label for="answerOne"></label>
-          <input type="radio" id="answerOne" value="" name="answer"><br>
-          <label for="answerTwo"></label>
-          <input type="radio" id="answerTwo" value="" name="answer"><br>
-          <label for=""></label>
-          <input type="radio" id="answerThree" value="" name="answer"><br>
-          <input type="submit" value="Submit">
+          <label for="answerOne" class="labelText"></label>
+          <input type="radio" id="answerOne" class="pulse" value="" name="answer"><br>
+          <label for="answerTwo" class="labelText"></label>
+          <input type="radio" id="answerTwo" class="pulse" value="" name="answer"><br>
+          <label for="answerThree" class="labelText"></label>
+          <input type="radio" id="answerThree"  class="pulse" value="" name="answer"><br>
+          <input type="submit" value="Submit" id="submit">
         </form>
       </div>
 
@@ -42,13 +42,13 @@
 
 
       <div id="game-over" class="hidden">
-        <p>No bueno, try again!</p>
         <img src="https://media.giphy.com/media/iLj7Uio0CHSO4/giphy.gif?response_id=5923004f01c21bea58253b7a" alt="Legolas: Game Over">
         <button class="play">One more time?</button>
       </div>
 
       <div id="win" class="hidden">
         <p>You are the master of all knowledge!</p>
+        <img src="https://media.giphy.com/media/5ME9j9hbSJYrK/giphy.gif?response_id=59242ade28ee692a7f41db51" alt="Colbert dancing with an American flag."><br>
         <button class="play">Play again</button>
       </div>
 
