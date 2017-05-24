@@ -21,10 +21,7 @@ $(() => {
   const $win = $('#win');
   const $placeImage = $('#placeImage');
   const $correctImage = $('#correctImage');
-
-  // const $timer = $('#timer');
-  // const countdownTimer = setInterval('secondsPassed()', 1000);
-  // let seconds = 60;
+  const $timer = $('#timer');
   // const $imageChange = $('#imageChange');
   // const $body = $('body');
 
@@ -33,6 +30,7 @@ $(() => {
   let playerAnswer = null;
   let correctAnswer = null;
   let currentRound = 0;
+  let timerId = null;
 
 
   audio1.play();
@@ -40,20 +38,25 @@ $(() => {
   //   $body.css('background-image', 'url(https://media.giphy.com/media/xUPGcfzaX9hFFQJYre/giphy.gif?response_id=592435a54e8f2028f1b2e976)');
   // });
 
-  // function secondsPassed() {
-  //   var minutes = Math.round((seconds - 30)/60);
-  //   var remainingSeconds = seconds % 60;
-  //   if (remainingSeconds < 10) {
-  //     remainingSeconds = '0' + remainingSeconds;
-  //   }
-  //   $timer.html(minutes + ':' + remainingSeconds);
-  //   if (seconds === 0) {
-  //     clearInterval(countdownTimer);
-  //     $timer.html('Out of time!');
-  //   } else {
-  //     seconds--;
-  //   }
-  // }
+  //game timer that resets each time questions and aswers are generated
+
+  function timer(minutes) {
+    var seconds = 60;
+    var mins = minutes;
+    clearTimeout(timerId);
+
+    function tick() {
+      var currentMinutes = mins-1;
+      seconds--;
+      $timer.html(currentMinutes.toString() + ':' + (seconds < 10 ? '0' : '') + String(seconds));
+      if( seconds > 0 ) {
+        timerId = setTimeout(tick, 1000);
+      } else {
+        storage();
+      }
+    }
+    tick();
+  }
 
 
 //reset game by displaying game-over div*
@@ -80,11 +83,11 @@ $(() => {
 
   //function generate questions & answers
   function generateQuestionsAnswers() {
+    timer(1);
     $form.get(0).reset();
     var randomIndex = Math.floor(Math.random()*allQuestions.length);
     questionSelected = allQuestions.splice(randomIndex, 1)[0];
     correctAnswer = questionSelected.correctAnswer;
-    console.log('question selected', questionSelected);
 
     $questionHere.html(questionSelected.question);
 
@@ -128,10 +131,6 @@ $(() => {
 
   $button.on('click', startGame);
   $form.on('submit', submitAnswer);
-  // $submit.on('click', ()=> {
-  //
-  // });
-
 
   $next.on('click', ()=> {
     $correctImage.empty();
