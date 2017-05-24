@@ -4,7 +4,8 @@ $(() => {
   const audio2 = new Audio('sounds/europa.m4a');
   const audio3 = new Audio('sounds/feelGood.m4a');
   const audio4 = new Audio('sounds/oneMoreTime.m4a');
-  const audio5 =new Audio('sounds/ding.wav');
+  const audio5 = new Audio('sounds/ding.wav');
+  const audio6 = new Audio('sounds/nope.mp3');
   const $submit = $('#submit');
   const $radiosHere = $('input[type=radio]');
 
@@ -122,7 +123,11 @@ $(() => {
   $button.on('click', startGame);
   $form.on('submit', submitAnswer);
   $submit.on('click', ()=> {
-    audio5.play();
+    if (correctAnswer) {
+      audio5.play();
+    } else {
+      audio6.play();
+    }
   });
 
   $next.on('click', ()=> {

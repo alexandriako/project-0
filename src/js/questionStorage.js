@@ -255,7 +255,7 @@ var allQuestions = [
     question: 'Who used to be an amateur go kart racer?',
     answers: ['Nimesh', 'Simon', 'James C.'],
     correctAnswer: 'Nimesh',
-    description: 'Going fast and furious',
+    description: 'He lives his life a quarter mile at a time',
     correctImage: 'https://media.giphy.com/media/HYT1M1YCPI9KE/giphy.gif?response_id=592451aa71723dc46994ae43'
   },
   {
@@ -276,7 +276,7 @@ var allQuestions = [
     question: 'What is Lauren\'s favorite number?',
     answers: ['9', '66', '3'],
     correctAnswer: '9',
-    description: 'We do not know why',
+    description: 'She can\'t say why',
     correctImage: 'https://media.giphy.com/media/3oKIP7wjzdzjbjLugg/giphy.gif?response_id=59245298b77861487ed64026'
   },
   {

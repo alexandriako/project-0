@@ -11,6 +11,7 @@ body {
   min-width: 768px;
   max-width: 900px;
   height: 100%;
+  width: 100%;
   margin-top: 50px;
   display: inline-block;
   background-image: url("https://media.giphy.com/media/SpHGOPeYkb5ao/giphy.gif?response_id=59217978243f5ad49db0422f");
@@ -20,6 +21,7 @@ header {
   min-width: 768px;
   max-width: 900px;
   height: 100%;
+  width: 100%;
   margin-bottom: 50px;
   background-color: rgb(255, 153, 255);
   opacity: 0.75;
@@ -145,6 +147,7 @@ footer {
   font-size: 24px;
   border-radius: 15px;
   height: 100%;
+  width: 100%;
   p {
     display: inline-block;
   }
