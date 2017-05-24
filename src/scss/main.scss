@@ -10,11 +10,17 @@
 body {
   min-width: 768px;
   max-width: 900px;
-  height: 100%;
+  height: 85%;
   width: 100%;
   margin-top: 50px;
   display: inline-block;
   background-image: url("https://media.giphy.com/media/SpHGOPeYkb5ao/giphy.gif?response_id=59217978243f5ad49db0422f");
+  &.win {
+    background-image: url("#");
+  }
+  &.lose {
+    background-image: url("#");
+  }
 }
 
 header {
@@ -28,10 +34,11 @@ header {
   border-radius: 15px;
   padding-top: 2px;
   padding-bottom: 2px;
-  h1 {
+  a {
     font-family: 'Bungee Outline', cursive;
     font-weight: bold;
     font-size: 50px;
+    text-decoration: none;
   }
 }
 
