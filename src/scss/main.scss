@@ -95,6 +95,8 @@ div #placeImage {
   img {
     margin-top: 28px;
     padding: 0 10px;
+    width: 400px;
+    height: 300px;
   }
   button {
     margin-top: 20px;
@@ -168,4 +170,17 @@ button {
 h3:hover {
   font-size: 150%;
   font-weight: bold;
+}
+
+label:hover {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#timer {
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 24px;
+  background-color: rgb(194, 194, 214);
+  width: 75%;
+  margin: 0 auto;
 }

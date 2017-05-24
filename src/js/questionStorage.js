@@ -38,7 +38,7 @@ var allQuestions = [
     question: 'How did Clare get 2nd degree burns over both of her hands?',
     answers: ['Making a cup of tea', 'Trying new leg wax', 'Grabbing Chris Hemsworth'],
     correctAnswer: 'Trying new leg wax',
-    description: 'So many questions...',
+    description: 'Ouch',
     correctImage: 'https://media.giphy.com/media/l2SpOCdNB9WRmXc3K/giphy.gif?response_id=5922eda9968a6a568737f775'
   },
   {
@@ -46,8 +46,8 @@ var allQuestions = [
     answers: ['12', '35', '51'],
     correctAnswer: '51',
     description: 'How are you still alive?!?!?',
-    correctImage: 'https://media.giphy.com/media/LLhEaNmf4hwM8/giphy.gif?response_id=592405093b58b37ed93acb42'
-  }, //change image
+    correctImage: 'https://media.giphy.com/media/nSktT8BeXm1Lq/giphy.gif?response_id=5925479ee66d61d0feb70bba'
+  },
   {
     question: 'Who did a 100km trek through the Sahara 6 weeks ago?',
     answers: ['Clare', 'Max', 'Angela'],
@@ -59,15 +59,15 @@ var allQuestions = [
     question: 'Alex C. learnt Hindi for 3 years. What is the one thing she remembers how to say in the language?',
     answers: ['Do you have any toilet paper?', 'Please do not touch my cat.', 'Where is the the hospital?'],
     correctAnswer: 'Do you have any toilet paper?',
-    description: 'Seems like there\'s an inappropriate joke in there somewhere...',
-    correctImage: 'https://media.giphy.com/media/143yVxZmpEPwYM/giphy.gif?response_id=592405d166da5e3936fe3a16' //change image
+    description: 'There\'s an inappropriate joke in there somewhere...',
+    correctImage: 'https://media.giphy.com/media/l1IYeSOfwBYPu8FHO/giphy.gif?response_id=592545f3901041f157b948c4'
   },
   {
     question: 'Which celebrity did Angela spill coffee all over?',
     answers: ['Bob Saget', 'Kevin Spacey', 'Bill Nighy'],
     correctAnswer: 'Kevin Spacey',
     description: 'She accidentally bumped into him at Starbucks',
-    correctImage: 'https://media.giphy.com/media/xtc15Nu4ODSQE/giphy.gif?response_id=5924061cd5d303d01515d880' //resize image
+    correctImage: 'https://media.giphy.com/media/xtc15Nu4ODSQE/giphy.gif?response_id=5924061cd5d303d01515d880'
   },
   {
     question: 'What did Simon sell at a club for £10?',
@@ -88,7 +88,7 @@ var allQuestions = [
     answers: ['Teeth fillings', 'Stitches', 'Noninvassive surgeries'],
     correctAnswer: 'Teeth fillings',
     description: 'Tim used to eat icing sugar as a kid and has over 20 fillings',
-    correctImage: 'https://media.giphy.com/media/4aXkoYHpZWInu/giphy.gif?response_id=592406c9551a02908919c43a' //resize image
+    correctImage: 'https://media.giphy.com/media/4aXkoYHpZWInu/giphy.gif?response_id=592406c9551a02908919c43a'
   },
   {
     question: 'How many times did Tolani have to take her driving test before passing?',
@@ -108,8 +108,8 @@ var allQuestions = [
     question: 'What did Mike fracture when he was 4 years old?',
     answers: ['Skull', 'Shinbone', 'Clavicle'],
     correctAnswer: 'Skull',
-    description: 'Mike was competing with his brother to see who could jump off of the highest stair in their house and he cracked his skull',
-    correctImage: 'https://media.giphy.com/media/3d9tAuFXw9xok/giphy.gif?response_id=5924129d15ce5d885b42b716' //change image
+    description: 'Mike was competing with his brother to see who could jump off of the highest stair in their house',
+    correctImage: 'https://media.giphy.com/media/l0NwuvFERvrjszjd6/giphy.gif?response_id=5925619d9e207a52bade0926'
   },
   {
     question: 'What is the name of Alex C.\'s cat?',
@@ -136,7 +136,7 @@ var allQuestions = [
     question: 'Who had pneumonia 3 times?',
     answers: ['Clare', 'Lauren', 'Tolani'],
     correctAnswer: 'Tolani',
-    description: 'A little Swanson can make anyone feel better',
+    description: 'Damn girl',
     correctImage: 'https://media.giphy.com/media/LmQzOKKcATm4E/giphy.gif?response_id=5924090201fa18781ff32c51'
   },
   {
@@ -157,8 +157,8 @@ var allQuestions = [
     question: 'What did Alex O. have to eat in Japan?',
     answers: ['Raw horse', 'Cow tongue', 'All of the above'],
     correctAnswer: 'All of the above',
-    description: 'Raw horse is considered a delicacy in Japan and cow tongue is often consumed when drinking alcohol',
-    correctImage: 'https://media.giphy.com/media/h8MXok4iLRtmM/giphy.gif?response_id=59241323e5b0a08c0deb631f' //change image
+    description: 'It was weird',
+    correctImage: 'https://media.giphy.com/media/3o7TKPmG5ekwskn2Vy/giphy.gif?response_id=592548d125097400ca0d7949'
   },
   {
     question: 'What was Alex O.\'s nickname as a baby?',
@@ -171,14 +171,14 @@ var allQuestions = [
     question: 'What is Alex O.\'s favorite bird?',
     answers: ['The eagle', 'The pigeon', 'The crane'],
     correctAnswer: 'The pigeon',
-    description: 'Why? Even though everybody hates them and kicks them, they keep doing their thing',
+    description: 'Even though everyone hates them, they keep on doing their own thing',
     correctImage: 'https://media.giphy.com/media/b4HaKUfzuCjrq/giphy.gif?response_id=592414e4ea0c973d928ab309'
   },
   {
     question: 'What did Ollie hate as a kid, but make himself eat until he liked it?',
     answers: ['Peas', 'Licorice', 'Eggs'],
     correctAnswer: 'Eggs',
-    description: 'Chicken embryos, yum',
+    description: 'Eggs for days',
     correctImage: 'https://media.giphy.com/media/DiyOoZkzxawne/giphy.gif?response_id=592415e0d06669786b5aca28'
   }, //change text
   {
@@ -193,7 +193,7 @@ var allQuestions = [
     answers: ['Hit him with his car', 'Give him a heart attack', 'Accidentally sleep with his girlfriend'],
     correctAnswer: 'Give him a heart attack',
     description: 'Jason dressed up in a bin bag and scared his cousin with a knife. They had to call an ambulance because he had heart palpitations',
-    correctImage: 'https://media.giphy.com/media/Lb1eyMWMaU5eE/giphy.gif?response_id=59244c620424a0ef178d8e73'
+    correctImage: 'https://media.giphy.com/media/2gG2xiMTtFwsg/giphy.gif?response_id=5925482de4ed426239867034'
   },
   {
     question: 'Max has climbed how many of the tallest mountains in the world?',
@@ -201,7 +201,7 @@ var allQuestions = [
     correctAnswer: '5',
     description: 'He has climbed the highest mountains on 5 continents: Mount Elbrus, Mount Kilimanjaro, Mount Denali, Mount Aconcagua, & Mount Kosciuszko',
     correctImage: 'https://media.giphy.com/media/fXgKfzV4aaHQI/giphy.gif?response_id=59244c936c60b97f7190b700'
-  }, //resize image
+  },
   {
     question: 'Jason builds...?',
     answers: ['Gundam figurines', 'PCs', 'Beautiful friendships'],
@@ -221,8 +221,8 @@ var allQuestions = [
     answers: ['Ethnic cuisine competition', 'Freestyle dance competition', 'Beautiful baby competition'],
     correctAnswer: 'Beautiful baby competition',
     description: 'She was a very adorable baby',
-    correctImage: '#'
-  }, //need image
+    correctImage: 'images/angelaBaby.jpeg'
+  },
   {
     question: 'Jason dressed up as what to sneak into a football match?',
     answers: ['Safety steward', 'Japanese business man', 'Photographer'],
@@ -248,23 +248,23 @@ var allQuestions = [
     question: 'What is Angel\'s cat\'s name?',
     answers: ['Grace Kelly', 'Lara Croft', 'Jackie Stallone'],
     correctAnswer: 'Jackie Stallone',
-    description: 'She has the same attitude',
-    correctImage: 'https://media.giphy.com/media/9IRX12VhoXoR2/giphy.gif?response_id=592450521d3da5ac0c9395a2' //change image
+    description: 'The both have major sass factor',
+    correctImage: 'https://media.giphy.com/media/AsZ2RJVN3GEN2/giphy.gif?response_id=592549d473c7cabfcb3c415d'
   },
   {
     question: 'Who used to be an amateur go kart racer?',
     answers: ['Nimesh', 'Simon', 'James C.'],
     correctAnswer: 'Nimesh',
-    description: 'Text',
-    correctImage: 'https://media.giphy.com/media/HYT1M1YCPI9KE/giphy.gif?response_id=592451aa71723dc46994ae43' //add text
+    description: 'Going fast and furious',
+    correctImage: 'https://media.giphy.com/media/HYT1M1YCPI9KE/giphy.gif?response_id=592451aa71723dc46994ae43'
   },
   {
     question: 'Nimesh has what type of license?',
     answers: ['License to kill', 'Pilot license', 'Sailing license'],
     correctAnswer: 'Pilot license',
-    description: 'Text',
-    correctImage: '#'
-  }, //add text and image
+    description: 'He has had his license since 2008',
+    correctImage: 'https://media.giphy.com/media/piz2KLnypv8pW/giphy.gif?response_id=59254b51efbb40db0e6151b8'
+  },
   {
     question: 'What "nick"name (get it) does Nick have?',
     answers: ['Ham', 'Muffin', 'Pickle'],
@@ -290,16 +290,16 @@ var allQuestions = [
     question: 'Who ran the Dublin marathon last year?',
     answers: ['James C.', 'Tim', 'Ollie'],
     correctAnswer: 'Tim',
-    description: 'Text',
+    description: 'The marathon is 42.2 km and held every October',
     correctImage: 'https://media.giphy.com/media/AHe4ZsFUVh26Y/giphy.gif?response_id=5924536b5d6fee9088cc47ad'
   },
   {
     question: 'What instrument did Mike 1.0 play for his Darnkenss Tribute band?',
     answers: ['Bass', 'Tamborine', 'Guitar'],
     correctAnswer: 'Bass',
-    description: 'Text',
+    description: 'It was wicked',
     correctImage: 'https://media.giphy.com/media/oUHK5Ga9Bqj7y/giphy.gif?response_id=592453e7fcb88fd25741c10f'
-  }, //resize image
+  },
   {
     question: 'What hobby does Jakub want to pursue in the future?',
     answers: ['Beat boxing', 'Woodworking', 'Lock picking'],
