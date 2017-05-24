@@ -5,7 +5,7 @@ $(() => {
   const audio3 = new Audio('sounds/feelGood.m4a');
   const audio4 = new Audio('sounds/oneMoreTime.m4a');
   const audio5 = new Audio('sounds/ding.wav');
-  const audio6 = new Audio('sounds/nope.mp3');
+  const audio6 = new Audio('sounds/nope.mp4');
   const $submit = $('#submit');
   const $radiosHere = $('input[type=radio]');
 
@@ -103,6 +103,12 @@ $(() => {
     playerAnswer = $('input[type=radio]:checked').val();
 
     checkAnswer(questionSelected);
+    console.log(`player answers ${playerAnswer} when the answer should be ${correctAnswer}`);
+    if (playerAnswer === correctAnswer) {
+      audio5.play();
+    } else {
+      audio6.play();
+    }
   }
 
 //function check answer
@@ -122,13 +128,10 @@ $(() => {
 
   $button.on('click', startGame);
   $form.on('submit', submitAnswer);
-  $submit.on('click', ()=> {
-    if (correctAnswer) {
-      audio5.play();
-    } else {
-      audio6.play();
-    }
-  });
+  // $submit.on('click', ()=> {
+  //
+  // });
+
 
   $next.on('click', ()=> {
     $correctImage.empty();
