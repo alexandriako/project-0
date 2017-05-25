@@ -190,8 +190,9 @@ button {
   margin-top: 10px;
   font-size: 24px;
   background-color: rgb(194, 194, 214);
-  width: 75%;
+  width: 15%;
   margin: 0 auto;
+  border-radius: 15px;
 }
 
 
@@ -201,7 +202,12 @@ h3:hover {
   font-weight: bold;
 }
 
-.instructions p:hover {
+.intro:hover {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.questionHere:hover {
   font-size: 120%;
   font-weight: bold;
 }
