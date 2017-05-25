@@ -63,6 +63,7 @@ $(() => {
 
   function storage() {
     $body.removeClass('start');
+    timer().cancel;
     $body.addClass('lose');
     $gameOver.removeClass('hidden');
     audio2.pause();
