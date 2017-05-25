@@ -20,11 +20,12 @@ body {
     background-image: url("https://media.giphy.com/media/DooxiQPHELW6Y/giphy.gif");
   }
   &.win {
-    background-image: url("https://media.giphy.com/media/MmMMUuCCS97cA/giphy.gif");
+    background-image: url("https://media.giphy.com/media/ygAaR0n5RsyAM/giphy.gif");
     background-size: cover;
   }
   &.lose {
-    background-image: url("https://media.giphy.com/media/l6NjBRoRAvRVS/giphy.gif");
+    background-image: url("https://media.giphy.com/media/l3q2RgN7WUjeUUXm0/giphy.gif");
+    background-size: cover;
   }
 }
 
@@ -185,6 +186,16 @@ button {
 }
 
 
+#timer {
+  margin-top: 10px;
+  font-size: 24px;
+  background-color: rgb(194, 194, 214);
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+
 h3:hover {
   font-size: 150%;
   font-weight: bold;
@@ -198,12 +209,4 @@ h3:hover {
 label:hover {
   font-size: 120%;
   font-weight: bold;
-}
-
-#timer {
-  margin-top: 10px;
-  font-size: 24px;
-  background-color: rgb(194, 194, 214);
-  width: 75%;
-  margin: 0 auto;
 }

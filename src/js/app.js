@@ -1,3 +1,5 @@
+/* global allQuestions */
+
 $(() => {
 
   const audio1 = new Audio('sounds/gangstasParadise.m4a');
@@ -58,6 +60,7 @@ $(() => {
 
 
 //reset game by displaying game-over div*
+
   function storage() {
     $body.removeClass('start');
     $body.addClass('lose');
@@ -85,6 +88,7 @@ $(() => {
   }
 
   //function generate questions & answers
+
   function generateQuestionsAnswers() {
     timer(1);
     $form.get(0).reset();
@@ -104,6 +108,7 @@ $(() => {
   }
 
 //function submit answer
+
   function submitAnswer(e) {
     e.preventDefault();
     playerAnswer = $('input[type=radio]:checked').val();
@@ -132,10 +137,7 @@ $(() => {
     }
   }
 
-  $button.on('click', startGame);
-  $form.on('submit', submitAnswer);
-
-  $next.on('click', ()=> {
+  function nextQuestion() {
     $correctImage.empty();
     $placeImage.addClass('hidden');
     $next.addClass('hidden');
@@ -154,6 +156,10 @@ $(() => {
     } else {
       generateQuestionsAnswers();
     }
-  });
+  }
+
+  $button.on('click', startGame);
+  $form.on('submit', submitAnswer);
+  $next.on('click', nextQuestion);
 
 });
