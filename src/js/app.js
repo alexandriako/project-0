@@ -148,6 +148,7 @@ $(() => {
     if (currentRound >= 10) {
       audio2.pause();
       audio3.play();
+      timer().cancel;
       $body.removeClass('start');
       $body.addClass('win');
       $gameBoard.addClass('hidden');
