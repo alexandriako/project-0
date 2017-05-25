@@ -13,6 +13,7 @@ $(() => {
 
   const $labelsHere = $('label');
   const $questionHere =$('.questionHere');
+  const $formEffect = $('#form');
   const $form = $('form');
   const $heading = $('#heading');
   const $button  = $('.play');
@@ -63,7 +64,9 @@ $(() => {
 
   function storage() {
     $body.removeClass('start');
+    $heading.addClass('hidden');
     $body.addClass('lose');
+    $formEffect.addClass('hvr-pulse');
     $gameOver.removeClass('hidden');
     audio2.pause();
     audio4.play();
@@ -74,6 +77,8 @@ $(() => {
 
   function startGame() {
     $instructions.addClass('hidden');
+    $formEffect.removeClass('hvr-pulse');
+    $heading.removeClass('hidden');
     $body.addClass('start');
     $body.removeClass('win');
     $body.removeClass('lose');
@@ -150,10 +155,12 @@ $(() => {
       audio3.play();
       $body.removeClass('start');
       $body.addClass('win');
+      $heading.addClass('hidden');
+      $formEffect.addClass('hvr-pulse');
       $gameBoard.addClass('hidden');
       $heading.html('Congrats!');
       $win.removeClass('hidden');
-      
+
       currentRound = 0;
     } else {
       generateQuestionsAnswers();

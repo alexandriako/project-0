@@ -17,5 +17,8 @@
     "gulp-uglify": "^2.0.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "hover.css": "^2.2.0"
+  }
 }

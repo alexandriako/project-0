@@ -14,7 +14,7 @@ var allQuestions = [
     correctImage: 'https://media.giphy.com/media/NSodIu91KDWCs/giphy.gif?response_id=5922e7e112639c3d0cba1ce9'
   },
   {
-    question: 'What candy advert did Mike audition for as a child?',
+    question: 'What candy advert did Mike 1.0 audition for as a child?',
     answers: ['Cadbury', 'Milkybar', 'Yorkie'],
     correctAnswer: 'Milkybar',
     description: 'Delicious',
@@ -40,6 +40,13 @@ var allQuestions = [
     correctAnswer: 'Trying new leg wax',
     description: 'Ouch',
     correctImage: 'https://media.giphy.com/media/l2SpOCdNB9WRmXc3K/giphy.gif?response_id=5922eda9968a6a568737f775'
+  },
+  {
+    question: 'How much can Chisomo bench press?',
+    answers: ['50kg', '120kg', '10kg'],
+    correctAnswer: '50kg',
+    description: 'That is the same weight as Christina Aguilera',
+    correctImage: 'https://media.giphy.com/media/b7DB302YKLaCY/giphy.gif'
   },
   {
     question: 'How many stitches has Clare had in total from freak accidents?',
