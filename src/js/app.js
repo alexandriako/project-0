@@ -68,7 +68,7 @@ $(() => {
     audio2.pause();
     audio4.play();
     $gameBoard.addClass('hidden');
-    timer().stop;
+
     currentRound = 0;
   }
 
@@ -153,7 +153,7 @@ $(() => {
       $gameBoard.addClass('hidden');
       $heading.html('Congrats!');
       $win.removeClass('hidden');
-      timer().stop;
+      
       currentRound = 0;
     } else {
       generateQuestionsAnswers();
