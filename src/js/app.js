@@ -22,8 +22,8 @@ $(() => {
   const $placeImage = $('#placeImage');
   const $correctImage = $('#correctImage');
   const $timer = $('#timer');
-  // const $imageChange = $('#imageChange');
-  // const $body = $('body');
+  const $body = $('body');
+
 
 
   let questionSelected = null;
@@ -34,9 +34,7 @@ $(() => {
 
 
   audio1.play();
-  // $imageChange.on('click', () => {
-  //   $body.css('background-image', 'url(https://media.giphy.com/media/xUPGcfzaX9hFFQJYre/giphy.gif?response_id=592435a54e8f2028f1b2e976)');
-  // });
+
 
   //game timer that resets each time questions and aswers are generated
 
@@ -61,6 +59,8 @@ $(() => {
 
 //reset game by displaying game-over div*
   function storage() {
+    $body.removeClass('start');
+    $body.addClass('lose');
     $gameOver.removeClass('hidden');
     audio2.pause();
     audio4.play();
@@ -70,6 +70,9 @@ $(() => {
 
   function startGame() {
     $instructions.addClass('hidden');
+    $body.addClass('start');
+    $body.removeClass('win');
+    $body.removeClass('lose');
     audio1.pause();
     audio4.pause();
     $gameOver.addClass('hidden');
@@ -139,9 +142,11 @@ $(() => {
     $form.removeClass('hidden');
     $heading.html('Question ' + (currentRound + 1) + `/` + `10`);
 
-    if (currentRound >= 10) {
+    if (currentRound >= 2) {
       audio2.pause();
       audio3.play();
+      $body.removeClass('start');
+      $body.addClass('win');
       $gameBoard.addClass('hidden');
       $heading.html('Congrats!');
       $win.removeClass('hidden');

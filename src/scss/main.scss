@@ -8,6 +8,7 @@
 }
 
 body {
+  font-family: 'Baloo Bhaina', cursive;
   min-width: 768px;
   max-width: 900px;
   height: 85%;
@@ -15,11 +16,15 @@ body {
   margin-top: 50px;
   display: inline-block;
   background-image: url("https://media.giphy.com/media/SpHGOPeYkb5ao/giphy.gif?response_id=59217978243f5ad49db0422f");
+  &.start {
+    background-image: url("https://media.giphy.com/media/DooxiQPHELW6Y/giphy.gif");
+  }
   &.win {
-    background-image: url("#");
+    background-image: url("https://media.giphy.com/media/MmMMUuCCS97cA/giphy.gif");
+    background-size: cover;
   }
   &.lose {
-    background-image: url("#");
+    background-image: url("https://media.giphy.com/media/l6NjBRoRAvRVS/giphy.gif");
   }
 }
 
@@ -35,7 +40,7 @@ header {
   padding-top: 2px;
   padding-bottom: 2px;
   h1 {
-    font-family: 'Bungee Outline', cursive;
+    font-family: 'Bungee Shade', cursive;
     font-weight: bold;
     font-size: 50px;
   }
@@ -72,7 +77,7 @@ div #instructions {
     font-family: 'Ubuntu Mono', monospace;
   }
   h1 {
-    font-family: 'Baloo Bhaina', cursive;
+
     background-color: rgb(194, 194, 214);
     width: 75%;
     margin: 0 auto;
@@ -87,7 +92,7 @@ div #instructions {
     border-radius: 5px;
   }
   h2 {
-    font-family: 'Baloo Bhaina', cursive;
+
     color: rgb(255, 255, 255);
     height: 30px;
   }
@@ -108,6 +113,7 @@ div #placeImage {
   }
   button {
     margin-top: 20px;
+    font-family: 'Ubuntu Mono', monospace;
   }
 }
 
@@ -125,6 +131,7 @@ div #game-over {
   button {
     margin-bottom: 20px;
     margin-top: 30px;
+    font-family: 'Ubuntu Mono', monospace;
   }
 }
 
@@ -139,6 +146,7 @@ div #win {
   button {
     margin-bottom: 20px;
     margin-top: 30px;
+    font-family: 'Ubuntu Mono', monospace;
   }
 }
 
@@ -148,7 +156,7 @@ footer {
   opacity: 0.75;
   margin-top: 50px;
   margin-bottom: 30px;
-  font-family: 'Baloo Bhaina', cursive;
+
   text-transform: uppercase;
   font-size: 24px;
   border-radius: 15px;
@@ -164,20 +172,26 @@ button {
   padding: 5px 10px;
   border-radius: 10px;
   background-color: rgb(242, 241, 243);
-  font-family: 'Baloo Bhaina', cursive;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 #submit {
   font-size: 16px;
-  font-family: 'Baloo Bhaina', cursive;
+
   padding: 5px 10px;
   border-radius: 10px;
   background-color: rgb(242, 241, 243);
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 
 h3:hover {
   font-size: 150%;
+  font-weight: bold;
+}
+
+.instructions p:hover {
+  font-size: 120%;
   font-weight: bold;
 }
 
@@ -187,7 +201,7 @@ label:hover {
 }
 
 #timer {
-  font-family: 'Baloo Bhaina', cursive;
+  margin-top: 10px;
   font-size: 24px;
   background-color: rgb(194, 194, 214);
   width: 75%;
