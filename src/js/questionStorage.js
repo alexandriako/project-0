@@ -282,7 +282,7 @@ var allQuestions = [
   {
     question: 'What club does Tim belong to in Victoria?',
     answers: ['Swingers club', 'Snooker club', 'Poker club'],
-    correctAnswer: 'Snookers club',
+    correctAnswer: 'Snooker club',
     description: 'Requires much flexibility',
     correctImage: 'https://media.giphy.com/media/cSgqRK3mWckPm/giphy.gif?response_id=59245311921db5f0982d75bf'
   },
