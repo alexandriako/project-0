@@ -144,7 +144,7 @@ $(() => {
     $form.removeClass('hidden');
     $heading.html('Question ' + (currentRound + 1) + `/` + `10`);
 
-    if (currentRound >= 2) {
+    if (currentRound >= 10) {
       audio2.pause();
       audio3.play();
       $body.removeClass('start');
