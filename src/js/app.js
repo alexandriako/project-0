@@ -63,7 +63,7 @@ $(() => {
 
   function storage() {
     $body.removeClass('start');
-    timer().cancel;
+    
     $body.addClass('lose');
     $gameOver.removeClass('hidden');
     audio2.pause();
@@ -148,7 +148,6 @@ $(() => {
     if (currentRound >= 10) {
       audio2.pause();
       audio3.play();
-      timer().cancel;
       $body.removeClass('start');
       $body.addClass('win');
       $gameBoard.addClass('hidden');
