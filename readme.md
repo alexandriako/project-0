@@ -38,6 +38,7 @@ These are the languages and softwares used in this game:
 - Gulp
 - NPM
 - Git & github
+- Heroku
 
 A shoutout to Giphy for supplying this game with some fun backgrounds and muy bueno gifs. They are a great source for comedic material. I tried to stop and restart the timer after each win or correct question, but then the timer displayed "NaN". Additionally, the kind folks at Youtube offer many soundtracks and special effects available for free download.
 

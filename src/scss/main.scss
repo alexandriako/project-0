@@ -268,6 +268,8 @@ label:hover {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
-// @media (max-width: 640px) {
-//
-// }
+@media (max-width: 640px) {
+  body {
+    position: fixed;
+  }
+}

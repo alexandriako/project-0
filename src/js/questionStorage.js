@@ -301,7 +301,7 @@ var allQuestions = [
     correctImage: 'https://media.giphy.com/media/AHe4ZsFUVh26Y/giphy.gif?response_id=5924536b5d6fee9088cc47ad'
   },
   {
-    question: 'What instrument did Mike 1.0 play for his Darnkenss Tribute band?',
+    question: 'What instrument did Mike 1.0 play for his Darkness Tribute band?',
     answers: ['Bass', 'Tamborine', 'Guitar'],
     correctAnswer: 'Bass',
     description: 'It was wicked',
