@@ -150,15 +150,15 @@ var allQuestions = [
     question: 'What is the name of Max\'s daughter?',
     answers: ['Amelia', 'Alicia', 'Banana'],
     correctAnswer: 'Amelia',
-    description: 'Daughters are the best',
-    correctImage: 'https://media.giphy.com/media/Qc7a6N5aGLyo/giphy.gif?response_id=5924097e2e4f2c7005330cb8'
+    description: 'That\'s an otter not a beaver',
+    correctImage: 'images/amelia.JPG'
   },
   {
     question: 'What did Max come in 11th for?',
     answers: ['Triathlon', 'Miss Universe', 'Fantasy Football League'],
     correctAnswer: 'Triathlon',
     description: 'He came in 11th for the UK middle distance triathlon!',
-    correctImage: 'https://media.giphy.com/media/6Z3D5t31ZdoNW/giphy.gif?response_id=59240a4ef3d3227ccb5a656d'
+    correctImage: 'images/max.JPG'
   },
   {
     question: 'What did Alex O. have to eat in Japan?',

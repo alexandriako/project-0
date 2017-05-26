@@ -13,7 +13,18 @@ Installation steps are listed below:
 
 ### A short description
 
-You should then give a short description of the project. You should include some screenshots at this point. Images, gifs, audio files, events.
+WHI 27 Ultimate Trivia Game utilizes many images, gifs, audio files, and a few events.
+
+![Homepage](images/homepage.png)
+
+The game is styled by using multiple divs with the class of hidden. As the player clicks on buttons, the hidden class is added or removed when necessary.
+
+I created two JavaScript files that are easily repurposed for your own trivia game. The sheet _questionStorage.js_ is used for storing questions, their answers, and corresponding media as an array. The sheet _app.js_ stores all of the functions and constants needed to run the game. You can change the timer, number of questions needed to be correct, and all media on this sheet.
+
+To add to the comedic effect, I inputted gifs for each correct answer, and different audio files for when a player submits an answer and for the different stages of the gem: instructions, start, win, lose.
+
+![Effects example](images/example.png)
+
 
 
 ### Technologies used
@@ -28,18 +39,17 @@ These are the languages and softwares used in this game:
 - NPM
 - Git & github
 
-A shoutout to Giphy for supplying this game with some fun backgrounds and muy bueno gifs. They are a great source for comedic material. Additionally, the kind folks at Youtube offer many soundtracks and special effects available for free download.
+A shoutout to Giphy for supplying this game with some fun backgrounds and muy bueno gifs. They are a great source for comedic material. I tried to stop and restart the timer after each win or correct question, but then the timer displayed "NaN". Additionally, the kind folks at Youtube offer many soundtracks and special effects available for free download.
 
 ### Challenges faced
 
-This game was fairly straightforward to build and conceptually made sense to me.
+This game was fairly straightforward to build and conceptually made sense to me (which is why I built it). I had trouble with the timer as it is functioning well, but there is a bug for the win and display image screens. The timer is hidden, but continues to play which causes the hidden divs to appear. Additionally, name spacing proved difficult as I tried to use it, my game broke.
 
 ### Rounding it off
 
-Finally you should say what improvements you would like to make to the project in the future. These could include things that you do not know how to do yet.
+For improvements I'd like to:
 
-For example you might say:
-
+- Fix my timer bug
 - Improve the overall styling
 - Complete name spacing
 - Add hint or cheat option that supplies answer once in a round
