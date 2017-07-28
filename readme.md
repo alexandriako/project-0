@@ -26,7 +26,6 @@ To add to the comedic effect, I inputted gifs for each correct answer, and diffe
 ![Effects example](images/example.png)
 
 
-
 ### Technologies used
 
 These are the languages and softwares used in this game:
@@ -40,20 +39,19 @@ These are the languages and softwares used in this game:
 - Git & github
 - Heroku
 
-A shoutout to Giphy for supplying this game with some fun backgrounds and muy bueno gifs. They are a great source for comedic material. I tried to stop and restart the timer after each win or correct question, but then the timer displayed "NaN". Additionally, the kind folks at Youtube offer many soundtracks and special effects available for free download.
+A shoutout to Giphy for supplying this game with some fun backgrounds and muy bueno gifs. They are a great source for comedic material. Additionally, the kind folks at Youtube offer many soundtracks and special effects available for free.
 
 ### Challenges faced
 
-This game was fairly straightforward to build and conceptually made sense to me (which is why I built it). I had trouble with the timer as it is functioning well, but there is a bug for the win and display image screens. The timer is hidden, but continues to play which causes the hidden divs to appear. Additionally, name spacing proved difficult as I tried to use it, my game broke.
+This game was fairly straightforward to build and conceptually made sense to me (which is why I built it). I had trouble with the timer.  Additionally, name spacing proved difficult as I tried to implement it, my game broke.
 
 ### Rounding it off
 
 For improvements I'd like to:
 
-- Fix my timer bug
 - Improve the overall styling
 - Complete name spacing
-- Add hint or cheat option that supplies answer once in a round
+- Add hint or cheat option that supplies an answer once in a round
 - Add different levels for question difficulty
 
 Interested in following my future projects? Link with me on [Github](https://github.com/alexandriako).

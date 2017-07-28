@@ -44,7 +44,7 @@ $(() => {
   function timer(minutes) {
     var seconds = 60;
     var mins = minutes;
-    clearTimeout(timerId);
+    clearTimeout(timerId); // stop the timer
 
     function tick() {
       var currentMinutes = mins-1;
@@ -151,6 +151,7 @@ $(() => {
     $heading.html('Question ' + (currentRound + 1) + `/` + `10`);
 
     if (currentRound >= 10) {
+      clearTimeout(timerId); // stop the timer
       audio2.pause();
       audio3.play();
       $body.removeClass('start');
